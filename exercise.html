@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title></title>
+</head>
+<body>
+  <div class="container-fluid">
+       <div class="row">
+               <div class="col-3">
+                   <p>name</p>
+               </div>
+
+               <div class="col-9">
+                   <p>image</p>
+               </div>
+           </div> <!-- /.row -->
+
+
+           <div class="row">
+              <div class="col-3">
+                <p>dog</p>
+              </div>
+           
+
+              <div class="col-9">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Collage_of_Nine_Dogs.jpg" width="100" height="100">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3">
+                <p>cat</p>
+              </div>
+           
+
+              <div class="col-9">
+                <img src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/f_auto,q_auto,w_1100/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg" width="100" height="100">
+              </div>
+            </div>
+
+              <div class="row">
+              <div class="col-3">
+                <p>fish</p>
+              </div>
+              
+
+              <div class="col-9">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Dunkleosteus_BW.jpg" width="100" height="100">
+              </div>
+            </div>
+
+        <br>
+              
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <p>Animals:</p>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Collage_of_Nine_Dogs.jpg" alt="dog">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/f_auto,q_auto,w_1100/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg" alt="cat">
+            </div>
+            <div class="carousel-item">
+              <img class="https://upload.wikimedia.org/wikipedia/commons/9/95/Dunkleosteus_BW.jpg">
+            </div>
+          </div>
+        </div>   
+
+                <div id='calc-contain'>
+  
+          <form name="calculator">
+            
+            <input type="text" name="answer" />
+            <br>
+            
+            <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+            <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+            <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+            <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+            <br/>
+            
+            <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+            <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+            <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+            <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+            </br>
+          
+            <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+            <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+            <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+            <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+            </br>
+        
+            <input type="button" value=" c " onclick="calculator.answer.value = ''" />
+            <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+            <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+            <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+            </br>
+  
+    
+          </form>
+          <div id="agh">
+            <p>Adrian Gheorghe Calc
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+</body>
+</html>
